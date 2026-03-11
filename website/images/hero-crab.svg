@@ -1,0 +1,75 @@
+<svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBody" x1="0" y1="0" x2="400" y2="400">
+      <stop offset="0%" stop-color="#E6007A"/>
+      <stop offset="30%" stop-color="#FF0080"/>
+      <stop offset="70%" stop-color="#00B4D4"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    
+    <linearGradient id="heroClaw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E6007A"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Shadow -->
+  <ellipse cx="200" cy="340" rx="100" ry="20" fill="#000" opacity="0.2" filter="url(#glow)"/>
+  
+  <!-- Left leg back -->
+  <path d="M90 280 Q60 300, 50 330" stroke="url(#heroClaw)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.7"/>
+  
+  <!-- Right leg back -->
+  <path d="M310 280 Q340 300, 350 330" stroke="url(#heroClaw)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.7"/>
+  
+  <!-- Left claw arm -->
+  <path d="M80 200 Q40 160, 60 120 Q70 100, 90 110" stroke="url(#heroClaw)" stroke-width="10" stroke-linecap="round" fill="none"/>
+  
+  <!-- Left claw pincer top -->
+  <path d="M90 110 Q70 90, 55 100 Q50 110, 60 125" stroke="url(#heroClaw)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Left claw pincer bottom -->
+  <path d="M90 110 Q75 130, 70 140 Q80 145, 90 130" stroke="url(#heroClaw)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right claw arm -->
+  <path d="M320 200 Q360 160, 340 120 Q330 100, 310 110" stroke="url(#heroClaw)" stroke-width="10" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right claw pincer top -->
+  <path d="M310 110 Q330 90, 345 100 Q350 110, 340 125" stroke="url(#heroClaw)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right claw pincer bottom -->
+  <path d="M310 110 Q325 130, 330 140 Q320 145, 310 130" stroke="url(#heroClaw)" stroke-width="8" stroke-linecap="round" fill="none"/>
+  
+  <!-- Body main -->
+  <ellipse cx="200" cy="230" rx="110" ry="95" fill="url(#heroBody)" filter="url(#glow)"/>
+  
+  <!-- Body highlight -->
+  <ellipse cx="200" cy="210" rx="70" ry="50" fill="url(#heroBody)" opacity="0.3"/>
+  
+  <!-- Eye left -->
+  <circle cx="160" cy="190" r="20" fill="#0a0a0f"/>
+  <circle cx="164" cy="186" r="8" fill="#E6007A"/>
+  <circle cx="167" cy="182" r="4" fill="white" opacity="0.6"/>
+  
+  <!-- Eye right -->
+  <circle cx="240" cy="190" r="20" fill="#0a0a0f"/>
+  <circle cx="244" cy="186" r="8" fill="#E6007A"/>
+  <circle cx="247" cy="182" r="4" fill="white" opacity="0.6"/>
+  
+  <!-- Smile -->
+  <path d="M170 260 Q200 275, 230 260" stroke="#0a0a0f" stroke-width="4" stroke-linecap="round" fill="none"/>
+  
+  <!-- Left leg front -->
+  <path d="M100 270 Q70 290, 65 315" stroke="url(#heroClaw)" stroke-width="10" stroke-linecap="round" fill="none"/>
+  
+  <!-- Right leg front -->
+  <path d="M300 270 Q330 290, 335 315" stroke="url(#heroClaw)" stroke-width="10" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,16 @@
+<!-- HydraDX Logo - Official Style -->
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hydraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6297C"/>
+      <stop offset="100%" stop-color="#E6007A"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="url(#hydraGrad)" stroke-width="3"/>
+  <!-- Inner arc - incomplete circle -->
+  <path d="M32 8 C18 8, 8 18, 8 32 C8 42, 14 50, 24 52" 
+        stroke="url(#hydraGrad)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="9" fill="url(#hydraGrad)"/>
+</svg>

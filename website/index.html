@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTClaw — The Polkadot AI Agent</title>
+    <link rel="icon" type="image/png" href="images/Gemini_Generated_Image_kvun7zkvun7zkvun-removebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <img src="images/Gemini_Generated_Image_kvun7zkvun7zkvun-removebg-preview.png" alt="DOTClaw" class="nav-logo">
+            <span>DOTClaw</span>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#protocols">Protocols</a>
+            <a href="https://github.com/dotclaw/dotclaw" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Live on Polkadot</span>
+            </div>
+            
+            <h1 class="hero-title">
+                The Polkadot
+                <span class="gradient-text">AI Agent</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Stake, swap, and manage your Polkadot assets through natural language. 
+                Available on WhatsApp & Telegram.
+            </p>
+            
+            <div class="hero-cta">
+                <a href="#start" class="btn btn-primary">
+                    <span>Get Started</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/dotclaw/dotclaw" class="btn btn-secondary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">20+</div>
+                    <div class="stat-label">Actions</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-value">6</div>
+                    <div class="stat-label">Protocols</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-value">2</div>
+                    <div class="stat-label">Platforms</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Mascot -->
+        <div class="hero-mascot">
+            <img src="images/Gemini_Generated_Image_kvun7zkvun7zkvun-removebg-preview.png" alt="DOTClaw" class="hero-crab">
+        </div>
+    </section>
+
+    <!-- Live Demo Section -->
+    <section class="demo-section" id="demo">
+        <div class="demo-container">
+            <div class="demo-header">
+                <h2>See it in action</h2>
+                <p>Natural language meets Polkadot</p>
+            </div>
+            
+            <div class="chat-demo">
+                <div class="chat-header">
+                    <div class="chat-user">
+                        <div class="chat-avatar">You</div>
+                        <div class="chat-info">
+                            <span class="chat-name">Telegram</span>
+                            <span class="chat-status-text">online</span>
+                        </div>
+                    </div>
+                    <div class="chat-actions">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <div class="chat-messages">
+                    <div class="message user-msg">
+                        <div class="msg-content">What's my DOT balance?</div>
+                        <span class="msg-time">14:32</span>
+                    </div>
+                    
+                    <div class="message bot-msg">
+                        <div class="bot-header">
+                            <svg class="bot-icon" viewBox="0 0 24 24">
+                                <ellipse cx="12" cy="13" rx="7" ry="6" fill="url(#botGrad)"/>
+                                <circle cx="9.5" cy="11" r="2" fill="#0a0a0a"/>
+                                <circle cx="14.5" cy="11" r="2" fill="#0a0a0a"/>
+                                <circle cx="10" cy="10.5" r="0.8" fill="#E6007A"/>
+                                <circle cx="15" cy="10.5" r="0.8" fill="#E6007A"/>
+                                <defs>
+                                    <linearGradient id="botGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#E6007A"/>
+                                        <stop offset="100%" stop-color="#00D4FF"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span>DOTClaw</span>
+                        </div>
+                        <div class="msg-content">
+                            <div class="balance-display">
+                                <span class="balance-amount">1,245.50</span>
+                                <span class="balance-symbol">DOT</span>
+                            </div>
+                            <div class="balance-usd">≈ $8,456.75 USD</div>
+                        </div>
+                        <span class="msg-time">14:32</span>
+                    </div>
+                    
+                    <div class="message user-msg">
+                        <div class="msg-content">Stake 500 DOT with best validators</div>
+                        <span class="msg-time">14:33</span>
+                    </div>
+                    
+                    <div class="message bot-msg">
+                        <div class="bot-header">
+                            <svg class="bot-icon" viewBox="0 0 24 24">
+                                <ellipse cx="12" cy="13" rx="7" ry="6" fill="url(#botGrad2)"/>
+                                <circle cx="9.5" cy="11" r="2" fill="#0a0a0a"/>
+                                <circle cx="14.5" cy="11" r="2" fill="#0a0a0a"/>
+                                <defs>
+                                    <linearGradient id="botGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#E6007A"/>
+                                        <stop offset="100%" stop-color="#00D4FF"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <span>DOTClaw</span>
+                        </div>
+                        <div class="msg-content">
+                            <div class="tx-success">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Staked 500 DOT</span>
+                            </div>
+                            <div class="tx-details">
+                                <div>Validators: 16 selected</div>
+                                <div>Avg commission: 2.1%</div>
+                                <div class="tx-hash">0x7f3a...9e2b</div>
+                            </div>
+                        </div>
+                        <span class="msg-time">14:33</span>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <span class="input-placeholder">Type a command...</span>
+                    <div class="input-send">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="features" id="features">
+        <div class="section-header">
+            <h2>Everything you need</h2>
+            <p>Complete Polkadot operations via chat</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Native Staking</h3>
+                <p>Stake DOT directly with validators or nomination pools. Auto-compound rewards.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>DEX Swaps</h3>
+                <p>Trade on Hydration Omnipool. Best rates with minimal slippage.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Cross-Chain XCM</h3>
+                <p>Teleport assets between parachains. Seamless interoperability.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Secure by Design</h3>
+                <p>Isolated containers. Encrypted keys. Your assets, protected.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Natural Language</h3>
+                <p>"Stake 100 DOT" — no complex commands. Just chat.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>AI Powered</h3>
+                <p>Understands context. Learns your preferences. Gets smarter.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protocols -->
+    <section class="protocols" id="protocols">
+        <div class="protocols-bg"></div>
+        <div class="section-header">
+            <h2>Integrated Protocols</h2>
+            <p>Native support for Polkadot's ecosystem</p>
+        </div>
+        
+        <div class="protocols-list">
+            <div class="protocol-item featured">
+                <div class="protocol-glow"></div>
+                <div class="protocol-info">
+                    <h3>Hydration</h3>
+                    <p>Omnipool DEX</p>
+                </div>
+                <div class="protocol-badge">Featured</div>
+            </div>
+            
+            <div class="protocol-item">
+                <div class="protocol-info">
+                    <h3>Astar</h3>
+                    <p>WASM + EVM</p>
+                </div>
+            </div>
+            
+            <div class="protocol-item">
+                <div class="protocol-info">
+                    <h3>Moonbeam</h3>
+                    <p>EVM Compatible</p>
+                </div>
+            </div>
+            
+            <div class="protocol-item">
+                <div class="protocol-info">
+                    <h3>Native Staking</h3>
+                    <p>NPoS Consensus</p>
+                </div>
+            </div>
+            
+            <div class="protocol-item">
+                <div class="protocol-info">
+                    <h3>Nomination Pools</h3>
+                    <p>Pool Staking</p>
+                </div>
+            </div>
+            
+            <div class="protocol-item">
+                <div class="protocol-info">
+                    <h3>XCM</h3>
+                    <p>Cross-Chain</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="start">
+        <div class="cta-content">
+            <h2>Ready to start?</h2>
+            <p>Deploy your Polkadot AI agent in minutes</p>
+            
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="terminal-title">bash</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="line"><span class="prompt">$</span> git clone https://github.com/dotclaw/dotclaw.git</div>
+                    <div class="line"><span class="prompt">$</span> cd dotclaw</div>
+                    <div class="line"><span class="prompt">$</span> npm install</div>
+                    <div class="line"><span class="prompt">$</span> npm run setup</div>
+                </div>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="https://github.com/dotclaw/dotclaw" class="btn btn-primary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <svg class="footer-logo" viewBox="0 0 32 32">
+                    <ellipse cx="16" cy="17" rx="10" ry="8" fill="url(#footGrad)"/>
+                    <circle cx="13" cy="14" r="2.5" fill="#0a0a0a"/>
+                    <circle cx="19" cy="14" r="2.5" fill="#0a0a0a"/>
+                    <circle cx="13.5" cy="13.5" r="1" fill="#E6007A"/>
+                    <circle cx="19.5" cy="13.5" r="1" fill="#E6007A"/>
+                    <defs>
+                        <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#E6007A"/>
+                            <stop offset="100%" stop-color="#00D4FF"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>DOTClaw</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/dotclaw/dotclaw" target="_blank">GitHub</a>
+                <a href="#">Documentation</a>
+                <span>MIT License</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
